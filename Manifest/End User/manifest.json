@@ -5,10 +5,10 @@
   "id": "6b827722-686d-4c35-ab76-6c1bd61ec7d2",
   "packageName": "com.microsoft.teams.incidentreporter.users",
   "developer": {
-    "name": "<<Developer name>>",
-    "websiteUrl": "<<WebsiteUrl>>",
-    "privacyUrl": "<<PrivacyUrl>>",
-    "termsOfUseUrl": "<<TermsOfUseUrl>>"
+    "name": "Tech Unicorn",
+    "websiteUrl": "https://www.cxunicorn.com",
+    "privacyUrl": "https://www.cxunicorn.com/privacy-policy.html",
+    "termsOfUseUrl": "https://www.cxunicorn.com/terms-of-use.html"
   },
   "icons": {
     "color": "color.png",
@@ -24,7 +24,7 @@
   "accentColor": "#64A2CC",
   "bots": [
     {
-      "botId": "<<Bot id>>",
+      "botId": "e91bbf76-855d-4532-99f0-fc32b54f71be",
       "scopes": [
         "personal"
       ],
@@ -47,7 +47,7 @@
   ],
   "composeExtensions": [
     {
-      "botId": "<<Bot id>>",
+      "botId": "e91bbf76-855d-4532-99f0-fc32b54f71be",
       "canUpdateConfiguration": false,
       "commands": [
         {
@@ -94,6 +94,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<valid domains>>"
+    "cx-incident-reporter-demo.azurewebsites.net"
   ]
 }
